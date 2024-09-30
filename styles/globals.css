@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Tailwind Styles */
+.flex-center {
+    @apply flex justify-center items-center;
+}
+
+.flex-start {
+    @apply flex justify-start items-start;
+}
+
+.flex-end {
+    @apply flex justify-end items-center;
+}
+
+.flex-between {
+    @apply flex justify-between items-center;
+}
+
+.toast-warning {
+    @apply bg-yellow-500 text-white;
+}
+
+.toast-error {
+    @apply bg-red-500 text-white;
+}
